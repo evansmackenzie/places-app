@@ -1,0 +1,4 @@
+# json.array! @places, partial: 'place', as: :place
+@places.map do |place|
+  render partial: "place.json.jb", locals: { place: place}
+end

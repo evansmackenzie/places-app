@@ -1,0 +1,8 @@
+# json.id place.id
+# json.name place.name
+# json.address place.address
+{
+  id: place.id,
+  name: place.name,
+  address: place.address
+}

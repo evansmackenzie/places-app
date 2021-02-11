@@ -1,0 +1,2 @@
+# json.partial! @place, partial: 'place', as: :place
+render partial: "place.json.jb", locals: { place: @place }
